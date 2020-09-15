@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+}
+
+#Selection{
+animation: selection 1s ease;
+transform-origin: center;
+}
+
+@keyframes selection{
+    from{
+        transform:  rotateZ(0deg);
+    }
+    to{
+        transform:  rotateZ(360deg);
+    }
+
+}
+
+#Login{
+    animation: login 3s ease;
+    transform-origin: center;
+}
+@keyframes login{
+    from{
+        transform: rotate3d(360deg);
+    }
+    to{
+        transform: rotateZ(0deg);
+    }
+}
+
+
+
+#sun1{
+    animation: sunz1 1s ease;
+    transform-origin: center;
+    }
+    
+    @keyframes sunz1{
+        from{
+            transform:  rotateZ(0deg);
+        }
+        to{
+            transform:  rotateZ(360deg);
+        }
+    
+    }
+
+
+#sun2{
+    animation: sunz2 1s ease;
+    transform-origin: center;
+    }
+    
+    @keyframes sunz2{
+        from{
+            transform:  rotateZ(0deg);
+        }
+        to{
+            transform:  rotateZ(360deg);
+        }
+    
+    }
+
+
+#bg{
+    animation: bg1 1s ease;
+    transform-origin: center;
+    }
+    
+    @keyframes bg1{
+        from{
+            transform:  rotateZ(0deg);
+        }
+        to{
+            transform:  rotateZ(360deg);
+        }
+    
+    }
+
+
+    

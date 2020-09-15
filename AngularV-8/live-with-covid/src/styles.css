@@ -1,0 +1,7 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@fortawesome/fontawesome-free/css/all.css";
+@font-face {
+    font-family: lato;
+    src: url(./assets/vendors/lightbox/simpleLightbox.css) format("opentype");
+    src: url(./assets/vendors/lightbox/simpleLightbox.min.js) format("opentype");
+  }
